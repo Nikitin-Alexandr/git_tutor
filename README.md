@@ -1,3 +1,4 @@
+# Basic command
 git init - создали репозиторий
 git add --all или git add file.txt добавили в отслеживаемые файлы
 git status - посмотрели текущее состояние
