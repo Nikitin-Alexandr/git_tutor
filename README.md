@@ -15,3 +15,11 @@
 HEAD - голова
 
 Git log --oneline - сокращённый список коммитов
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
